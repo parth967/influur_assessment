@@ -1,0 +1,41 @@
+video_id,username,category,views,likes,comments,shares,engagement_rate,video_performance,caption
+v1,dancingqueen,dance,450000,60000,1300.0,900.0,0.1382219150624109,super_viral,Learning a new routine
+v3,dancingqueen,dance,320000,45000,1100.0,650.0,0.1460932934584579,viral,Trying a trending dance
+v29,prankbros,comedy,310000,45000,1050.0,600.0,0.150483385537466,viral,Fake bug prank
+v2,dancingqueen,dance,300500,40000,900.0,500.0,0.1377699242265416,viral,Dance collab with friends
+v28,prankbros,comedy,290000,42000,980.0,520.0,0.1499994827604042,viral,Pranking my brother
+v31,prankbros,comedy,275000,40000,0.0,510.0,0.1473085552416173,viral,Try not to laugh challenge
+v9,fashionmia,fashion,270000,35000,900.0,420.0,0.1345180203036285,viral,Fashion tips for winter
+v30,prankbros,comedy,260000,38000,870.0,480.0,0.1513455717478009,viral,Scaring friends in public
+v7,fashionmia,fashion,250000,33000,800.0,400.0,0.1367994528021888,viral,Outfit inspo for the weekend
+v8,fashionmia,fashion,230000,31000,750.0,380.0,0.139695044804153,viral,Thrift haul styling
+v15,travelwithlia,travel,170000,25000,520.0,280.0,0.1517638131540402,normal,How to travel light
+v13,travelwithlia,travel,160000,22000,500.0,260.0,0.1422491109430566,normal,Hidden gem cafe in Tokyo
+v14,travelwithlia,travel,155000,21000,480.0,240.0,0.1401281282056244,normal,Day trip to a small village
+v16,travelwithlia,travel,140000,19000,0.0,230.0,0.1373561617417018,normal,Street food night market
+v38,pet_palace,animals,138000,21000,460.0,270.0,0.1574626270824124,normal,My dog learns a new trick
+v40,pet_palace,animals,132000,20500,0.0,260.0,0.1572715358216983,normal,Day in the life of a foster cat
+v34,fit_kara,fitness,130000,19000,430.0,260.0,0.1514603733817432,normal,Full body workout no equipment
+v39,pet_palace,animals,125000,19500,430.0,250.0,0.161438708490332,normal,Shelter pet glow up
+v35,fit_kara,fitness,118000,17500,400.0,240.0,0.1537275107838069,normal,Stretching routine for beginners
+v23,momlife_anna,lifestyle,115000,16000,420.0,260.0,0.1450422170241997,normal,Morning routine with kids
+v25,momlife_anna,lifestyle,112000,15800,410.0,250.0,0.146962973544879,normal,Weekend reset vlog
+v24,momlife_anna,lifestyle,108000,15000,0.0,240.0,0.1411098045388468,normal,Meal prep for busy parents
+v17,gamerx,gaming,95000,14000,350.0,200.0,0.1531562825654466,normal,Clutch win compilation
+v19,gamerx,gaming,91000,13500,0.0,190.0,0.1504379072757442,normal,Testing a new game mode
+v18,gamerx,gaming,88000,13000,320.0,180.0,0.1534073476437767,normal,Ranked grind highlights
+v4,foodie_jay,cooking,80000,12000,300.0,150.0,0.1556230547118161,normal,Recipe time quick pasta
+v5,foodie_jay,cooking,75000,10000,260.0,120.0,0.1383981546912707,normal,Hot sauce challenge
+v20,mr_finance,finance,72000,9000,210.0,130.0,0.1297204205497145,normal,How compound interest works
+v22,mr_finance,finance,70000,8800,205.0,140.0,0.1306409908429879,normal,Side hustle ideas
+v21,mr_finance,finance,68000,8500,195.0,0.0,0.1278657666799017,normal,Budgeting tips for beginners
+v36,eco_earth,sustainability,64000,9200,210.0,130.0,0.1490601709348291,normal,Zero waste bathroom swaps
+v37,eco_earth,sustainability,61000,8800,0.0,120.0,0.1462271110309667,normal,How to start composting
+v6,foodie_jay,cooking,60000,8500,0.0,90.0,0.1431642805953234,normal,Trying a budget meal
+v32,lo_fi_vibes,music,42000,6200,160.0,90.0,0.1535677721959001,normal,Lo fi beats to relax
+v10,techbro_nick,tech,42000,6000,180.0,70.0,0.1488059808099807,normal,My desk setup tour
+v12,techbro_nick,tech,41000,5800,190.0,80.0,0.148045169630009,normal,Reacting to new tech releases
+v11,techbro_nick,tech,39000,5500,0.0,60.0,0.1425604471680213,normal,Debugging live stream highlights
+v33,lo_fi_vibes,music,38000,5800,0.0,80.0,0.1547327701902581,normal,Study with me live
+v26,diy_dan,other,32000,4200,95.0,40.0,0.135464516733852,normal,Easy wall decor DIY
+v27,diy_dan,other,28000,3900,0.0,35.0,0.1405306953323095,normal,Upcycling old jars

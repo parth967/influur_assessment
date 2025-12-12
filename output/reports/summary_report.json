@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "generated_at": "2025-12-12T18:06:33.442530",
+    "report_type": "analysis_results",
+    "version": "1.0"
+  },
+  "data": {
+    "executive_summary": {
+      "total_creators": 15,
+      "total_videos": 40,
+      "total_views": 5644500.0,
+      "viral_videos": 10
+    },
+    "data_overview": {
+      "creators": {
+        "total_count": 15,
+        "categories": {
+          "dance": 1,
+          "cooking": 1,
+          "fashion": 1,
+          "tech": 1,
+          "travel": 1,
+          "gaming": 1,
+          "finance": 1,
+          "lifestyle": 1,
+          "other": 1,
+          "comedy": 1,
+          "music": 1,
+          "books": 1,
+          "fitness": 1,
+          "sustainability": 1,
+          "animals": 1
+        },
+        "avg_followers": 456333.3333333333
+      },
+      "videos": {
+        "total_count": 40,
+        "avg_views": 141112.5,
+        "avg_likes": 19825.0
+      }
+    },
+    "key_findings": [
+      "Data pipeline executed successfully",
+      "Performance metrics calculated for all creators and videos",
+      "Quality checks passed for all datasets",
+      "10 videos achieved viral status"
+    ],
+    "recommendations": [
+      "Monitor engagement rates to identify trending content",
+      "Focus on high-performing content categories",
+      "Analyze viral content patterns for strategy insights"
+    ]
+  }
+}

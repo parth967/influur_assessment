@@ -1,0 +1,91 @@
+{
+  "execution_date": "2025-12-12T18:02:48.146928+00:00",
+  "dag_run_id": "manual__2025-12-12T18:02:48.146928+00:00",
+  "ingestion": {
+    "creators": {
+      "rows": 15,
+      "columns": 6,
+      "memory_usage_mb": 0.0
+    },
+    "videos": {
+      "rows": 40,
+      "columns": 7,
+      "memory_usage_mb": 0.01
+    }
+  },
+  "cleaning": {
+    "creators": {
+      "rows_after_cleaning": 15,
+      "columns_after_cleaning": 7,
+      "new_columns": [
+        "engagement_rate"
+      ]
+    },
+    "videos": {
+      "rows_after_cleaning": 40,
+      "columns_after_cleaning": 12,
+      "new_columns": [
+        "like_rate",
+        "comment_rate",
+        "share_rate",
+        "total_engagement",
+        "engagement_rate"
+      ]
+    }
+  },
+  "enrichment": {
+    "creators": {
+      "rows_after_enrichment": 15,
+      "columns_after_enrichment": 13,
+      "enriched_columns": [
+        "total_videos",
+        "total_views",
+        "avg_views_per_video",
+        "max_views",
+        "avg_engagement_rate",
+        "performance_tier"
+      ]
+    },
+    "videos": {
+      "rows_after_enrichment": 40,
+      "columns_after_enrichment": 16,
+      "enriched_columns": [
+        "username",
+        "follower_count",
+        "category",
+        "video_performance"
+      ]
+    },
+    "creators_final": {
+      "rows_after_enrichment": 15,
+      "columns_after_enrichment": 8,
+      "enriched_columns": [
+        "top_category",
+        "avg_engagement_rate",
+        "virality_score",
+        "top_keywords"
+      ]
+    }
+  },
+  "analysis": {
+    "total_creators_analyzed": 15,
+    "total_videos_analyzed": 40,
+    "analysis_categories": [
+      "creator_analysis",
+      "video_analysis",
+      "insights",
+      "trend_detection",
+      "virality_spikes",
+      "category_clustering"
+    ]
+  },
+  "storage": {},
+  "reports": [
+    "creator_performance_report.csv",
+    "creators_final_table.csv",
+    "detailed_analysis.json",
+    "summary_report.json",
+    "video_performance_report.csv"
+  ],
+  "status": "SUCCESS"
+}

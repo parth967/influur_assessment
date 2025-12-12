@@ -1,0 +1,117 @@
+{
+    "table_name": "creators_final",
+    "description": "Final aggregated creator metrics table with one row per creator.",
+    "columns": [
+      {
+        "name": "creator_id",
+        "type": "INTEGER",
+        "description": "Unique identifier for the creator",
+        "constraints": {
+          "primary_key": true,
+          "not_null": true,
+          "min_value": 0
+        }
+      },
+      {
+        "name": "username",
+        "type": "TEXT",
+        "description": "Creator's public username/handle",
+        "constraints": {
+          "not_null": true
+        }
+      },
+      {
+        "name": "follower_count",
+        "type": "INTEGER",
+        "description": "Total number of followers (cleaned with median imputation)",
+        "constraints": {
+          "not_null": true,
+          "min_value": 0
+        }
+      },
+      {
+        "name": "avg_views",
+        "type": "INTEGER",
+        "description": "Average views per video (cleaned with median imputation)",
+        "constraints": {
+          "not_null": true,
+          "min_value": 0
+        }
+      },
+      {
+        "name": "top_category",
+        "type": "TEXT",
+        "description": "Creator's top video category based on highest total views",
+        "constraints": {
+          "not_null": true
+        }
+      },
+      {
+        "name": "avg_engagement",
+        "type": "REAL",
+        "description": "Average engagement rate across all videos",
+        "constraints": {
+          "not_null": true,
+          "min_value": 0.0,
+          "max_value": 1.0
+        }
+      },
+      {
+        "name": "virality_score",
+        "type": "REAL",
+        "description": "Composite virality score (0–100 scale)",
+        "constraints": {
+          "not_null": true,
+          "min_value": 0.0,
+          "max_value": 100.0
+        }
+      },
+      {
+        "name": "top_keywords",
+        "type": "TEXT",
+        "description": "Top 5 keywords extracted from captions and bio (comma-separated)",
+        "constraints": {
+          "not_null": true
+        }
+      }
+    ],
+    "storage": {
+      "format": "delta",
+      "path": "output/delta_tables/creators_final",
+      "partitioning": []
+    },
+    "data_quality_constraints": {
+      "not_null": [
+        "creator_id",
+        "username",
+        "follower_count",
+        "avg_views",
+        "top_category",
+        "avg_engagement",
+        "virality_score",
+        "top_keywords"
+      ],
+      "ranges": {
+        "follower_count": { "min": 0 },
+        "avg_views": { "min": 0 },
+        "avg_engagement": { "min": 0.0, "max": 1.0 },
+        "virality_score": { "min": 0.0, "max": 100.0 }
+      },
+      "defaults": {
+        "top_category": "other",
+        "top_keywords": "",
+        "numeric_missing_values": "median_or_zero"
+      }
+    },
+    "example_row": {
+      "creator_id": 101,
+      "username": "dancingqueen",
+      "follower_count": 1200000,
+      "avg_views": 350000,
+      "top_category": "dance",
+      "avg_engagement": 0.145,
+      "virality_score": 72.5,
+      "top_keywords": "dance, routine, choreo, trending, collab"
+    }
+  }
+  

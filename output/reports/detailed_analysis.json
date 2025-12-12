@@ -1,0 +1,681 @@
+{
+  "metadata": {
+    "generated_at": "2025-12-12T18:06:33.445742",
+    "report_type": "analysis_results",
+    "version": "1.0"
+  },
+  "data": {
+    "creator_analysis": {
+      "top_creators_by_followers": [
+        {
+          "username": "dancingqueen",
+          "follower_count": 1200000.0,
+          "category": "dance"
+        },
+        {
+          "username": "fashionmia",
+          "follower_count": 900000.0,
+          "category": "fashion"
+        },
+        {
+          "username": "prankbros",
+          "follower_count": 800000.0,
+          "category": "comedy"
+        },
+        {
+          "username": "travelwithlia",
+          "follower_count": 650000.0,
+          "category": "travel"
+        },
+        {
+          "username": "pet_palace",
+          "follower_count": 540000.0,
+          "category": "animals"
+        },
+        {
+          "username": "momlife_anna",
+          "follower_count": 510000.0,
+          "category": "lifestyle"
+        },
+        {
+          "username": "foodie_jay",
+          "follower_count": 430000.0,
+          "category": "cooking"
+        },
+        {
+          "username": "mr_finance",
+          "follower_count": 420000.0,
+          "category": "finance"
+        },
+        {
+          "username": "fit_kara",
+          "follower_count": 410000.0,
+          "category": "fitness"
+        },
+        {
+          "username": "gamerx",
+          "follower_count": 300000.0,
+          "category": "gaming"
+        }
+      ],
+      "top_creators_by_engagement": [
+        {
+          "username": "pet_palace",
+          "avg_engagement_rate": 0.16,
+          "category": "animals"
+        },
+        {
+          "username": "foodie_jay",
+          "avg_engagement_rate": 0.15,
+          "category": "cooking"
+        },
+        {
+          "username": "techbro_nick",
+          "avg_engagement_rate": 0.15,
+          "category": "tech"
+        },
+        {
+          "username": "gamerx",
+          "avg_engagement_rate": 0.15,
+          "category": "gaming"
+        },
+        {
+          "username": "prankbros",
+          "avg_engagement_rate": 0.15,
+          "category": "comedy"
+        },
+        {
+          "username": "lo_fi_vibes",
+          "avg_engagement_rate": 0.15,
+          "category": "music"
+        },
+        {
+          "username": "fit_kara",
+          "avg_engagement_rate": 0.15,
+          "category": "fitness"
+        },
+        {
+          "username": "eco_earth",
+          "avg_engagement_rate": 0.15,
+          "category": "sustainability"
+        },
+        {
+          "username": "dancingqueen",
+          "avg_engagement_rate": 0.14,
+          "category": "dance"
+        },
+        {
+          "username": "fashionmia",
+          "avg_engagement_rate": 0.14,
+          "category": "fashion"
+        }
+      ],
+      "category_performance": {
+        "animals": {
+          "creator_id": 1,
+          "avg_engagement_rate": 0.16,
+          "total_views": 395000.0
+        },
+        "books": {
+          "creator_id": 1,
+          "avg_engagement_rate": 0.0,
+          "total_views": 0.0
+        },
+        "comedy": {
+          "creator_id": 1,
+          "avg_engagement_rate": 0.15,
+          "total_views": 1135000.0
+        },
+        "cooking": {
+          "creator_id": 1,
+          "avg_engagement_rate": 0.15,
+          "total_views": 215000.0
+        },
+        "dance": {
+          "creator_id": 1,
+          "avg_engagement_rate": 0.14,
+          "total_views": 1070500.0
+        },
+        "fashion": {
+          "creator_id": 1,
+          "avg_engagement_rate": 0.14,
+          "total_views": 750000.0
+        },
+        "finance": {
+          "creator_id": 1,
+          "avg_engagement_rate": 0.13,
+          "total_views": 210000.0
+        },
+        "fitness": {
+          "creator_id": 1,
+          "avg_engagement_rate": 0.15,
+          "total_views": 248000.0
+        },
+        "gaming": {
+          "creator_id": 1,
+          "avg_engagement_rate": 0.15,
+          "total_views": 274000.0
+        },
+        "lifestyle": {
+          "creator_id": 1,
+          "avg_engagement_rate": 0.14,
+          "total_views": 335000.0
+        },
+        "music": {
+          "creator_id": 1,
+          "avg_engagement_rate": 0.15,
+          "total_views": 80000.0
+        },
+        "other": {
+          "creator_id": 1,
+          "avg_engagement_rate": 0.14,
+          "total_views": 60000.0
+        },
+        "sustainability": {
+          "creator_id": 1,
+          "avg_engagement_rate": 0.15,
+          "total_views": 125000.0
+        },
+        "tech": {
+          "creator_id": 1,
+          "avg_engagement_rate": 0.15,
+          "total_views": 122000.0
+        },
+        "travel": {
+          "creator_id": 1,
+          "avg_engagement_rate": 0.14,
+          "total_views": 625000.0
+        }
+      },
+      "overall_stats": {
+        "total_creators": 15,
+        "avg_engagement_rate": 0.136,
+        "total_views_platform": 5644500.0
+      }
+    },
+    "video_analysis": {
+      "top_videos_by_views": [
+        {
+          "video_id": "v1",
+          "username": "dancingqueen",
+          "views": 450000,
+          "engagement_rate": 0.1382219150624109
+        },
+        {
+          "video_id": "v3",
+          "username": "dancingqueen",
+          "views": 320000,
+          "engagement_rate": 0.1460932934584579
+        },
+        {
+          "video_id": "v29",
+          "username": "prankbros",
+          "views": 310000,
+          "engagement_rate": 0.150483385537466
+        },
+        {
+          "video_id": "v2",
+          "username": "dancingqueen",
+          "views": 300500,
+          "engagement_rate": 0.1377699242265416
+        },
+        {
+          "video_id": "v28",
+          "username": "prankbros",
+          "views": 290000,
+          "engagement_rate": 0.1499994827604042
+        },
+        {
+          "video_id": "v31",
+          "username": "prankbros",
+          "views": 275000,
+          "engagement_rate": 0.1473085552416173
+        },
+        {
+          "video_id": "v9",
+          "username": "fashionmia",
+          "views": 270000,
+          "engagement_rate": 0.1345180203036285
+        },
+        {
+          "video_id": "v30",
+          "username": "prankbros",
+          "views": 260000,
+          "engagement_rate": 0.1513455717478009
+        },
+        {
+          "video_id": "v7",
+          "username": "fashionmia",
+          "views": 250000,
+          "engagement_rate": 0.1367994528021888
+        },
+        {
+          "video_id": "v8",
+          "username": "fashionmia",
+          "views": 230000,
+          "engagement_rate": 0.139695044804153
+        }
+      ],
+      "video_performance_distribution": {
+        "normal": 30,
+        "viral": 9,
+        "super_viral": 1
+      },
+      "video_category_performance": {
+        "animals": {
+          "views": 131666.667,
+          "engagement_rate": 0.159,
+          "video_id": 3
+        },
+        "comedy": {
+          "views": 283750.0,
+          "engagement_rate": 0.15,
+          "video_id": 4
+        },
+        "cooking": {
+          "views": 71666.667,
+          "engagement_rate": 0.146,
+          "video_id": 3
+        },
+        "dance": {
+          "views": 356833.333,
+          "engagement_rate": 0.141,
+          "video_id": 3
+        },
+        "fashion": {
+          "views": 250000.0,
+          "engagement_rate": 0.137,
+          "video_id": 3
+        },
+        "finance": {
+          "views": 70000.0,
+          "engagement_rate": 0.129,
+          "video_id": 3
+        },
+        "fitness": {
+          "views": 124000.0,
+          "engagement_rate": 0.153,
+          "video_id": 2
+        },
+        "gaming": {
+          "views": 91333.333,
+          "engagement_rate": 0.152,
+          "video_id": 3
+        },
+        "lifestyle": {
+          "views": 111666.667,
+          "engagement_rate": 0.144,
+          "video_id": 3
+        },
+        "music": {
+          "views": 40000.0,
+          "engagement_rate": 0.154,
+          "video_id": 2
+        },
+        "other": {
+          "views": 30000.0,
+          "engagement_rate": 0.138,
+          "video_id": 2
+        },
+        "sustainability": {
+          "views": 62500.0,
+          "engagement_rate": 0.148,
+          "video_id": 2
+        },
+        "tech": {
+          "views": 40666.667,
+          "engagement_rate": 0.146,
+          "video_id": 3
+        },
+        "travel": {
+          "views": 156250.0,
+          "engagement_rate": 0.143,
+          "video_id": 4
+        }
+      },
+      "overall_video_stats": {
+        "total_videos": 40,
+        "avg_views": 141112.5,
+        "total_platform_views": "5644500",
+        "viral_video_count": 10
+      }
+    },
+    "insights": {
+      "content_strategy": {
+        "best_performing_category": "animals",
+        "avg_engagement_rate": 0.15872429046481426
+      },
+      "follower_engagement_correlation": {
+        "correlation_coefficient": 0.28717298749966813,
+        "interpretation": "weak"
+      },
+      "posting_frequency": {
+        "high_performers_avg_videos": 2.5714285714285716,
+        "all_creators_avg_videos": 2.6666666666666665,
+        "difference": -0.0952380952380949
+      },
+      "viral_content_patterns": {
+        "top_viral_categories": {
+          "comedy": 4,
+          "fashion": 3,
+          "dance": 2
+        },
+        "avg_engagement_rate_viral": 0.1437791923202509
+      }
+    },
+    "trend_detection": {
+      "trending_videos_count": 0,
+      "trending_creators_count": 0,
+      "trending_categories": {
+        "animals": {
+          "engagement_rate": 0.159,
+          "views": 131666.667,
+          "video_id": 3
+        },
+        "music": {
+          "engagement_rate": 0.154,
+          "views": 40000.0,
+          "video_id": 2
+        },
+        "fitness": {
+          "engagement_rate": 0.153,
+          "views": 124000.0,
+          "video_id": 2
+        },
+        "gaming": {
+          "engagement_rate": 0.152,
+          "views": 91333.333,
+          "video_id": 3
+        },
+        "comedy": {
+          "engagement_rate": 0.15,
+          "views": 283750.0,
+          "video_id": 4
+        },
+        "sustainability": {
+          "engagement_rate": 0.148,
+          "views": 62500.0,
+          "video_id": 2
+        },
+        "cooking": {
+          "engagement_rate": 0.146,
+          "views": 71666.667,
+          "video_id": 3
+        },
+        "tech": {
+          "engagement_rate": 0.146,
+          "views": 40666.667,
+          "video_id": 3
+        }
+      },
+      "top_trending_videos": [],
+      "top_trending_creators": []
+    },
+    "virality_spikes": {
+      "total_view_spikes": 0,
+      "total_engagement_spikes": 0,
+      "total_combined_spikes": 0,
+      "top_view_spikes": [],
+      "top_engagement_spikes": []
+    },
+    "category_clustering": {
+      "category_clusters": {
+        "high_engagement_medium_volume": {
+          "categories": [
+            "animals",
+            "fitness"
+          ],
+          "avg_engagement": 0.156,
+          "avg_views": 127833.3335,
+          "category_count": 2
+        },
+        "high_engagement_high_volume": {
+          "categories": [
+            "comedy"
+          ],
+          "avg_engagement": 0.15,
+          "avg_views": 283750.0,
+          "category_count": 1
+        },
+        "medium_engagement_low_volume": {
+          "categories": [
+            "cooking",
+            "finance",
+            "other",
+            "sustainability",
+            "tech"
+          ],
+          "avg_engagement": 0.14140000000000003,
+          "avg_views": 54966.666800000006,
+          "category_count": 5
+        },
+        "medium_engagement_high_volume": {
+          "categories": [
+            "dance",
+            "fashion",
+            "travel"
+          ],
+          "avg_engagement": 0.14033333333333334,
+          "avg_views": 254361.111,
+          "category_count": 3
+        },
+        "high_engagement_low_volume": {
+          "categories": [
+            "gaming",
+            "music"
+          ],
+          "avg_engagement": 0.153,
+          "avg_views": 65666.66649999999,
+          "category_count": 2
+        },
+        "medium_engagement_medium_volume": {
+          "categories": [
+            "lifestyle"
+          ],
+          "avg_engagement": 0.144,
+          "avg_views": 111666.667,
+          "category_count": 1
+        }
+      },
+      "category_metrics": [
+        {
+          "category": "animals",
+          "engagement_rate_mean": 0.159,
+          "engagement_rate_std": 0.002,
+          "views_mean": 131666.667,
+          "views_std": 6506.407,
+          "likes_mean": 20333.333,
+          "comments_mean": 296.667,
+          "shares_mean": 260.0,
+          "video_id_count": 3,
+          "engagement_cluster": "high_engagement",
+          "volume_cluster": "medium_volume",
+          "combined_cluster": "high_engagement_medium_volume"
+        },
+        {
+          "category": "comedy",
+          "engagement_rate_mean": 0.15,
+          "engagement_rate_std": 0.002,
+          "views_mean": 283750.0,
+          "views_std": 21360.009,
+          "likes_mean": 41250.0,
+          "comments_mean": 725.0,
+          "shares_mean": 527.5,
+          "video_id_count": 4,
+          "engagement_cluster": "high_engagement",
+          "volume_cluster": "high_volume",
+          "combined_cluster": "high_engagement_high_volume"
+        },
+        {
+          "category": "cooking",
+          "engagement_rate_mean": 0.146,
+          "engagement_rate_std": 0.009,
+          "views_mean": 71666.667,
+          "views_std": 10408.33,
+          "likes_mean": 10166.667,
+          "comments_mean": 186.667,
+          "shares_mean": 120.0,
+          "video_id_count": 3,
+          "engagement_cluster": "medium_engagement",
+          "volume_cluster": "low_volume",
+          "combined_cluster": "medium_engagement_low_volume"
+        },
+        {
+          "category": "dance",
+          "engagement_rate_mean": 0.141,
+          "engagement_rate_std": 0.005,
+          "views_mean": 356833.333,
+          "views_std": 81271.664,
+          "likes_mean": 48333.333,
+          "comments_mean": 1100.0,
+          "shares_mean": 683.333,
+          "video_id_count": 3,
+          "engagement_cluster": "medium_engagement",
+          "volume_cluster": "high_volume",
+          "combined_cluster": "medium_engagement_high_volume"
+        },
+        {
+          "category": "fashion",
+          "engagement_rate_mean": 0.137,
+          "engagement_rate_std": 0.003,
+          "views_mean": 250000.0,
+          "views_std": 20000.0,
+          "likes_mean": 33000.0,
+          "comments_mean": 816.667,
+          "shares_mean": 400.0,
+          "video_id_count": 3,
+          "engagement_cluster": "medium_engagement",
+          "volume_cluster": "high_volume",
+          "combined_cluster": "medium_engagement_high_volume"
+        },
+        {
+          "category": "finance",
+          "engagement_rate_mean": 0.129,
+          "engagement_rate_std": 0.001,
+          "views_mean": 70000.0,
+          "views_std": 2000.0,
+          "likes_mean": 8766.667,
+          "comments_mean": 203.333,
+          "shares_mean": 90.0,
+          "video_id_count": 3,
+          "engagement_cluster": "medium_engagement",
+          "volume_cluster": "low_volume",
+          "combined_cluster": "medium_engagement_low_volume"
+        },
+        {
+          "category": "fitness",
+          "engagement_rate_mean": 0.153,
+          "engagement_rate_std": 0.002,
+          "views_mean": 124000.0,
+          "views_std": 8485.281,
+          "likes_mean": 18250.0,
+          "comments_mean": 415.0,
+          "shares_mean": 250.0,
+          "video_id_count": 2,
+          "engagement_cluster": "high_engagement",
+          "volume_cluster": "medium_volume",
+          "combined_cluster": "high_engagement_medium_volume"
+        },
+        {
+          "category": "gaming",
+          "engagement_rate_mean": 0.152,
+          "engagement_rate_std": 0.002,
+          "views_mean": 91333.333,
+          "views_std": 3511.885,
+          "likes_mean": 13500.0,
+          "comments_mean": 223.333,
+          "shares_mean": 190.0,
+          "video_id_count": 3,
+          "engagement_cluster": "high_engagement",
+          "volume_cluster": "low_volume",
+          "combined_cluster": "high_engagement_low_volume"
+        },
+        {
+          "category": "lifestyle",
+          "engagement_rate_mean": 0.144,
+          "engagement_rate_std": 0.003,
+          "views_mean": 111666.667,
+          "views_std": 3511.885,
+          "likes_mean": 15600.0,
+          "comments_mean": 276.667,
+          "shares_mean": 250.0,
+          "video_id_count": 3,
+          "engagement_cluster": "medium_engagement",
+          "volume_cluster": "medium_volume",
+          "combined_cluster": "medium_engagement_medium_volume"
+        },
+        {
+          "category": "music",
+          "engagement_rate_mean": 0.154,
+          "engagement_rate_std": 0.001,
+          "views_mean": 40000.0,
+          "views_std": 2828.427,
+          "likes_mean": 6000.0,
+          "comments_mean": 80.0,
+          "shares_mean": 85.0,
+          "video_id_count": 2,
+          "engagement_cluster": "high_engagement",
+          "volume_cluster": "low_volume",
+          "combined_cluster": "high_engagement_low_volume"
+        },
+        {
+          "category": "other",
+          "engagement_rate_mean": 0.138,
+          "engagement_rate_std": 0.004,
+          "views_mean": 30000.0,
+          "views_std": 2828.427,
+          "likes_mean": 4050.0,
+          "comments_mean": 47.5,
+          "shares_mean": 37.5,
+          "video_id_count": 2,
+          "engagement_cluster": "medium_engagement",
+          "volume_cluster": "low_volume",
+          "combined_cluster": "medium_engagement_low_volume"
+        },
+        {
+          "category": "sustainability",
+          "engagement_rate_mean": 0.148,
+          "engagement_rate_std": 0.002,
+          "views_mean": 62500.0,
+          "views_std": 2121.32,
+          "likes_mean": 9000.0,
+          "comments_mean": 105.0,
+          "shares_mean": 125.0,
+          "video_id_count": 2,
+          "engagement_cluster": "medium_engagement",
+          "volume_cluster": "low_volume",
+          "combined_cluster": "medium_engagement_low_volume"
+        },
+        {
+          "category": "tech",
+          "engagement_rate_mean": 0.146,
+          "engagement_rate_std": 0.003,
+          "views_mean": 40666.667,
+          "views_std": 1527.525,
+          "likes_mean": 5766.667,
+          "comments_mean": 123.333,
+          "shares_mean": 70.0,
+          "video_id_count": 3,
+          "engagement_cluster": "medium_engagement",
+          "volume_cluster": "low_volume",
+          "combined_cluster": "medium_engagement_low_volume"
+        },
+        {
+          "category": "travel",
+          "engagement_rate_mean": 0.143,
+          "engagement_rate_std": 0.006,
+          "views_mean": 156250.0,
+          "views_std": 12500.0,
+          "likes_mean": 21750.0,
+          "comments_mean": 375.0,
+          "shares_mean": 252.5,
+          "video_id_count": 4,
+          "engagement_cluster": "medium_engagement",
+          "volume_cluster": "high_volume",
+          "combined_cluster": "medium_engagement_high_volume"
+        }
+      ],
+      "total_clusters": 6
+    }
+  }
+}

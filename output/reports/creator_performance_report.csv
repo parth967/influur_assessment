@@ -1,0 +1,16 @@
+username,category,follower_count,total_videos,total_views,avg_engagement_rate,performance_tier,max_views
+pet_palace,animals,540000.0,3.0,395000.0,0.16,high,138000.0
+foodie_jay,cooking,430000.0,3.0,215000.0,0.15,high,80000.0
+techbro_nick,tech,180000.0,3.0,122000.0,0.15,high,42000.0
+gamerx,gaming,300000.0,3.0,274000.0,0.15,high,95000.0
+prankbros,comedy,800000.0,4.0,1135000.0,0.15,viral,310000.0
+lo_fi_vibes,music,95000.0,2.0,80000.0,0.15,high,42000.0
+fit_kara,fitness,410000.0,2.0,248000.0,0.15,high,130000.0
+eco_earth,sustainability,220000.0,2.0,125000.0,0.15,high,64000.0
+dancingqueen,dance,1200000.0,3.0,1070500.0,0.14,low,450000.0
+fashionmia,fashion,900000.0,3.0,750000.0,0.14,low,270000.0
+travelwithlia,travel,650000.0,4.0,625000.0,0.14,low,170000.0
+momlife_anna,lifestyle,510000.0,3.0,335000.0,0.14,low,115000.0
+diy_dan,other,130000.0,2.0,60000.0,0.14,low,32000.0
+mr_finance,finance,420000.0,3.0,210000.0,0.13,low,72000.0
+quiet_reader,books,60000.0,0.0,0.0,0.0,low,0.0
