@@ -171,14 +171,11 @@ class PerformanceAnalyzer:
         """
         self.logger.info("Detecting trending content")
         
-        # Calculate average engagement rate across all videos
         avg_engagement_platform = videos_df['engagement_rate'].mean()
         
-        # Identify trending videos (engagement rate > 1.5x platform average)
         trending_threshold = avg_engagement_platform * 1.5
         trending_videos = videos_df[videos_df['engagement_rate'] > trending_threshold].copy()
         
-        # Identify trending creators (above average engagement and high virality score)
         if 'virality_score' in creators_df.columns:
             avg_virality = creators_df['virality_score'].mean()
             trending_creators = creators_df[
@@ -190,7 +187,6 @@ class PerformanceAnalyzer:
                 creators_df['avg_engagement_rate'] > avg_engagement_platform * 1.2
             ].copy()
         
-        # Identify trending categories (categories with above-average engagement)
         category_trends = videos_df.groupby('category').agg({
             'engagement_rate': 'mean',
             'views': 'mean',
@@ -227,16 +223,13 @@ class PerformanceAnalyzer:
         """
         self.logger.info("Detecting virality spikes")
         
-        # Calculate creator averages
         creator_avg_views = videos_df.groupby('creator_id')['views'].mean()
         creator_avg_engagement = videos_df.groupby('creator_id')['engagement_rate'].mean()
         
-        # Merge with video data
         videos_with_avg = videos_df.copy()
         videos_with_avg['creator_avg_views'] = videos_with_avg['creator_id'].map(creator_avg_views)
         videos_with_avg['creator_avg_engagement'] = videos_with_avg['creator_id'].map(creator_avg_engagement)
         
-        # Detect spikes: views > 2x creator average OR engagement > 2x creator average
         spike_threshold_views = 2.0
         spike_threshold_engagement = 2.0
         
@@ -248,13 +241,11 @@ class PerformanceAnalyzer:
             videos_with_avg['engagement_rate'] > (videos_with_avg['creator_avg_engagement'] * spike_threshold_engagement)
         ].copy()
         
-        # Combined spikes (both views and engagement)
         combined_spikes = videos_with_avg[
             (videos_with_avg['views'] > (videos_with_avg['creator_avg_views'] * spike_threshold_views)) &
             (videos_with_avg['engagement_rate'] > (videos_with_avg['creator_avg_engagement'] * spike_threshold_engagement))
         ].copy()
         
-        # Calculate spike intensity (how much above average)
         if len(view_spikes) > 0:
             view_spikes['spike_intensity'] = view_spikes['views'] / (view_spikes['creator_avg_views'] + 1)
         
@@ -283,7 +274,6 @@ class PerformanceAnalyzer:
         """
         self.logger.info("Clustering categories by performance")
         
-        # Calculate category performance metrics
         category_metrics = videos_df.groupby('category').agg({
             'engagement_rate': ['mean', 'std'],
             'views': ['mean', 'std'],
@@ -293,12 +283,10 @@ class PerformanceAnalyzer:
             'video_id': 'count'
         }).round(3)
         
-        # Flatten column names
         category_metrics.columns = ['_'.join(col).strip() for col in category_metrics.columns.values]
         category_metrics = category_metrics.reset_index()
         
-        # Simple clustering based on engagement rate ranges
-        # Low engagement: < 0.10, Medium: 0.10-0.15, High: > 0.15
+
         def assign_cluster(engagement_rate):
             if engagement_rate < 0.10:
                 return 'low_engagement'
@@ -309,18 +297,15 @@ class PerformanceAnalyzer:
         
         category_metrics['engagement_cluster'] = category_metrics['engagement_rate_mean'].apply(assign_cluster)
         
-        # Cluster by view volume
         avg_views = category_metrics['views_mean'].mean()
         category_metrics['volume_cluster'] = category_metrics['views_mean'].apply(
             lambda x: 'high_volume' if x > avg_views * 1.2 else 'medium_volume' if x > avg_views * 0.8 else 'low_volume'
         )
         
-        # Combined cluster
         category_metrics['combined_cluster'] = (
             category_metrics['engagement_cluster'] + '_' + category_metrics['volume_cluster']
         )
         
-        # Group by clusters
         cluster_summary = {}
         for cluster in category_metrics['combined_cluster'].unique():
             cluster_categories = category_metrics[category_metrics['combined_cluster'] == cluster]
